@@ -94,7 +94,7 @@ var guiders = (function($) {
     for (var i = myGuider.buttons.length - 1; i >= 0; i--) {
       var thisButton = myGuider.buttons[i];
       var thisButtonElem = $(guiders._buttonElement, $.extend({
-                                                         "class" : "guider_button",
+                                                         "class" : "guider_button btn",
                                                           "html" : thisButton.name },
                                                         guiders._buttonAttributes, thisButton.html || {}));
 
